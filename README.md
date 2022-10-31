@@ -7,7 +7,7 @@ Sistema Números Pares para treinar a utilização da linguagem JavaScript com: 
 [x] - Maniuplação do DOM (querySelector; querySelectorAll; createElement; appendChild; classList.remove; classList.toggle); <br>
 [x] - Métodos Nativos (parseInt; push; includes; indexOf; splice); <br>
 
-Você pode conferir o projeto em:
+Você pode conferir o projeto em: https://ionealves.github.io/Sistema_Numeros_Pares/
 
 Versão Desktop:
 ![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/99365685/199121757-7a34884e-15d1-4260-bf40-d8fdcba7c2c1.png)
