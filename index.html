@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+    <title>Sistema de Número Pares</title>
+</head>
+<body>
+    <header>
+        <h1>cadastro de número pares</h1>
+    </header>
+    <main>
+        <div class="container flexArea">
+            <div class="searchArea">
+                <section class="systemMenu">
+                    <h2>Clique no botão abaixo para efetuar a ação desejada</h2>
+                    <input class="btnAction" type="button" value="Cadastrar">
+                    <input class="btnAction" type="button" value="Listar">
+                    <input class="btnAction" type="button" value="Excluir">
+                    <input class="btnAction" type="button" value="Alterar">
+                    <input class="btnAction" type="button" value="Pesquisar">
+                </section>
+            </div>
+            <div class="modalArea modalAreaVanish">
+                <section class="modal">
+                    <h2>Cadastro de Número</h2>
+                    <p><span>Atenção:</span> Só serão aceitos números pares no sistema (faça o teste <span>&#128521;</span>)</p>
+                    <div>
+                        <label for="">Insira um número:</label><br>
+                        <input name="" id="number">
+                        <input class="btnSearch" type="button" value="Inserir" id="insert">
+                    </div>
+                </section>
+                <section class="modal">
+                    <h2>Consulte os número <br>cadastrados</h2>
+                    <p>Listar todos os números existentes na lista</p>
+                    <div id="dadosArray">
+                    </div>
+                    <input class="btnSearch" type="button" value="consultar" id="consultar">
+                    <input class="btnSearch" type="button" value="limpar" id="clean">
+                </section>
+                <section class="modal">
+                    <h2>Excluir um número</h2>
+                    <p>Excluir um número existente na lista</p>
+                    <input name="" id="numToExclude">
+                    <input class="btnSearch" type="button" value="Excluir Num" id="removeNum">
+                    <p id="respDel"></p>
+                </section>
+                <section class="modal">
+                    <h2>Alterar um número</h2>
+                    <p>Substitua um número existente na lista por outro</p>
+                    <label for="">Alterar:</label>
+                    <input type="number" name="" id="currentNum"><br>
+                    <label for="">Por:</label>
+                    <input name="" id="newNum"><br>
+                    <input class="btnSearch" type="button" value="Alterar" id="replace">
+                </section>
+                <section class="modal">
+                    <h2>Pesquisar um número</h2>
+                    <p>Verificar se o número existe na lista</p>
+                    <input type="number" name="" id="numExists">
+                    <input class="btnSearch" type="button" value="Pesquisar" id="lastSearch">
+                    <div id="respNumSearch"></div>
+                </section>    
+            </div>        
+        </div>
+    </main>
+    <footer>
+
+    </footer>   
+    <script src="script.js"></script>
+</body>
+</html>
